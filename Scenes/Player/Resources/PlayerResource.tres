@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Character" load_steps=2 format=3 uid="uid://bwgcw6g7rrgr5"]
+
+[ext_resource type="Script" uid="uid://cl18yiai38nuu" path="res://Resources/CharacterResource.gd" id="1_oucwg"]
+
+[resource]
+script = ExtResource("1_oucwg")
+health = 100
+shuriken_attack_damage = 15
+basic_attack_damage = 50
+special_attack_damage = 90
+walk_speed = 2.5
+run_speed = 4.0
+jump_force = 2.0
+metadata/_custom_type_script = "uid://cl18yiai38nuu"
