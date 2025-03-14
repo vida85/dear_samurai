@@ -1,0 +1,9 @@
+res://Scenes/Components/movement_controller.tscn
+res://Scenes/Player/Resources/PlayerResource.tres
+res://Scenes/Player/Player.tscn
+res://test.tscn
+res://Scenes/Components/movement_controller.gd
+res://Scenes/Components/Jump Component/jump_controller.tscn
+res://Scenes/Components/Jump Component/jump_controller.gd
+res://Scenes/Components/Movement Component/movement_controller.tscn
+res://Scenes/Components/Movement Component/movement_controller.gd
