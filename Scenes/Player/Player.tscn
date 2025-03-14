@@ -1,9 +1,10 @@
-[gd_scene load_steps=17 format=3 uid="uid://cifsly5repj8k"]
+[gd_scene load_steps=18 format=3 uid="uid://cifsly5repj8k"]
 
 [ext_resource type="Script" uid="uid://cia1itco2cfkm" path="res://Scenes/Player/player.gd" id="1_ft8w5"]
 [ext_resource type="Resource" uid="uid://bwgcw6g7rrgr5" path="res://Scenes/Player/Resources/PlayerResource.tres" id="2_h54ih"]
-[ext_resource type="PackedScene" uid="uid://bgfxj0vcj024p" path="res://Scenes/Components/movement_controller.tscn" id="3_h54ih"]
-[ext_resource type="Texture2D" uid="uid://beyakhbbs2jm" path="res://Assets/Meshes/Animations/Samurai/NEW VERSION/smoother_animations/IDLE.png" id="3_ude3g"]
+[ext_resource type="PackedScene" uid="uid://bgfxj0vcj024p" path="res://Scenes/Components/Movement Component/movement_controller.tscn" id="3_h54ih"]
+[ext_resource type="Texture2D" uid="uid://dx7gjnlc0ld3w" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/IDLE.png" id="3_ude3g"]
+[ext_resource type="PackedScene" uid="uid://cxyymikcayo7o" path="res://Scenes/Components/Jump Component/jump_controller.tscn" id="5_jmcll"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_jmcll"]
 atlas = ExtResource("3_ude3g")
@@ -80,7 +81,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
-"speed": 5.0
+"speed": 9.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ude3g"]
@@ -93,6 +94,7 @@ _stats = ExtResource("2_h54ih")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -33)
 sprite_frames = SubResource("SpriteFrames_h54ih")
+frame_progress = 0.912673
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -15)
@@ -102,5 +104,13 @@ shape = SubResource("CapsuleShape2D_ude3g")
 
 [node name="MovementController" parent="." node_paths=PackedStringArray("player") instance=ExtResource("3_h54ih")]
 player = NodePath("..")
+walk_speed = 45.0
+run_speed = 70.0
+jump_force = 25.0
+
+[node name="JumpController" parent="." node_paths=PackedStringArray("player") instance=ExtResource("5_jmcll")]
+position = Vector2(0, -15.675)
+player = NodePath("..")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
