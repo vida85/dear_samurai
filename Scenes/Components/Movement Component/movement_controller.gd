@@ -1,3 +1,4 @@
+class_name Movement
 extends Node
 
 @export_group("Attach Character")
@@ -23,7 +24,6 @@ var speed: float
 
 func _process(delta: float) -> void:
 	speed = get_speed()
-	input_dir = Input.get_vector(left, right, forward, backward)
 	direction = Input.get_axis(left, right)
 
 

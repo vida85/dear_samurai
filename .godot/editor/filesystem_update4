@@ -1,9 +1,11 @@
-res://Scenes/Components/movement_controller.tscn
-res://Scenes/Player/Resources/PlayerResource.tres
-res://Scenes/Player/Player.tscn
 res://test.tscn
-res://Scenes/Components/movement_controller.gd
-res://Scenes/Components/Jump Component/jump_controller.tscn
+res://Scenes/Player/Resources/PlayerResource.tres
 res://Scenes/Components/Jump Component/jump_controller.gd
+res://Scenes/Player/player.gd
 res://Scenes/Components/Movement Component/movement_controller.tscn
+res://Scenes/Player/Player.tscn
+res://Scenes/Components/Jump Component/jump_controller.tscn
+res://Scenes/Components/Jump Component/wall_jump_controller.tscn
+res://Scenes/Components/Jump Component/wall_jump_controller.gd
 res://Scenes/Components/Movement Component/movement_controller.gd
+res://Scenes/Components/Animation Component/animation_controller.gd

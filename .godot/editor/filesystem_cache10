@@ -1,40 +1,40 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1741976380
+::res://::1741984391
 icon.svg::CompressedTexture2D/CompressedTexture2D::5779990457849949::1741972913::1741972975::1::::<><><>0<>0<>4a7b2a02ea7c0820bc3a257c2c491153<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile/TextFile::-1::1741972913::0::1::::<><><>0<>0<><>::
 TASKS.md::TextFile/TextFile::-1::1741972913::0::1::::<><><>0<>0<><>::
-test.tscn::PackedScene::9135106086883825927::1741976380::0::1::::<><><>0<>0<><>::uid://c2gwd2fbk66::::res://icon.svg<>uid://cifsly5repj8k::::res://Scenes/Player/Player.tscn
+test.tscn::PackedScene::9135106086883825927::1741982916::0::1::::<><><>0<>0<><>::uid://c2gwd2fbk66::::res://icon.svg<>uid://cifsly5repj8k::::res://Scenes/Player/Player.tscn
 ::res://Assets/::1741972913
 ::res://Assets/Meshes/::1741972913
-::res://Assets/Meshes/Animations/::1741976047
-::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/::1741975991
-License.txt::TextFile/TextFile::-1::1741975984::0::1::::<><><>0<>0<><>::
-Preview.png::CompressedTexture2D/CompressedTexture2D::1505071557484141850::1741975984::1741975991::1::::<><><>0<>0<>c68da467fe59aebcd409a5bfe5a28546<>res://.godot/imported/Preview.png-3b5bb7014d0b5da6197b79b2e751cd69.ctex::
-shuriken.png::CompressedTexture2D/CompressedTexture2D::6927153257436207316::1741975984::1741975991::1::::<><><>0<>0<>67a129c8e444ef8ef22dcd430a8e1d37<>res://.godot/imported/shuriken.png-9e85ad7e0edb7a33ffae80cb324a4fa2.ctex::
-::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/::1741975991
-AIR ATTACK.png::CompressedTexture2D/CompressedTexture2D::7190112073271416742::1741975984::1741975991::1::::<><><>0<>0<>cc6d1e69fd48e1920dcd53171e268c9d<>res://.godot/imported/AIR ATTACK.png-0e52c38bd08e11407d528fb7627e4f25.ctex::
-ATTACK 1.png::CompressedTexture2D/CompressedTexture2D::2937625597018091081::1741975984::1741975991::1::::<><><>0<>0<>24b0548b7087374f6c2e817d12db3385<>res://.godot/imported/ATTACK 1.png-a20da6e6a0f0e9ad41bcfd66b11b1130.ctex::
-ATTACK 2.png::CompressedTexture2D/CompressedTexture2D::3058302392821121610::1741975984::1741975991::1::::<><><>0<>0<>2532609e803754709b62e420d231cfde<>res://.godot/imported/ATTACK 2.png-ad790c0662a309f111a0e03cfaf592f3.ctex::
-ATTACK 3.png::CompressedTexture2D/CompressedTexture2D::7036526110970041916::1741975984::1741975991::1::::<><><>0<>0<>2c249bf8790077dc5d9069f4c2324258<>res://.godot/imported/ATTACK 3.png-db28c209dc71eb8f42e5eb82f6fe61db.ctex::
-CLIMBING.png::CompressedTexture2D/CompressedTexture2D::7910202694610444088::1741975984::1741975991::1::::<><><>0<>0<>a393236938027eeb481ce0f8728b7522<>res://.godot/imported/CLIMBING.png-47f64b9c22024c37608fed11183d54e8.ctex::
-DASH.png::CompressedTexture2D/CompressedTexture2D::4028677311811466066::1741975984::1741975991::1::::<><><>0<>0<>9c04661ed55ec305d97246906d2c6da9<>res://.godot/imported/DASH.png-b5507d16a03a6815b334aa39262e3e74.ctex::
-DEATH.png::CompressedTexture2D/CompressedTexture2D::8350294011265552730::1741975984::1741975991::1::::<><><>0<>0<>4317d723ad9931a42c1b97d098ba3348<>res://.godot/imported/DEATH.png-c22215cf57bebd3afe942b229db97b02.ctex::
-DEFEND.png::CompressedTexture2D/CompressedTexture2D::520676696363026033::1741975984::1741975991::1::::<><><>0<>0<>a16125dcc0a0274af201dc89aad0e225<>res://.godot/imported/DEFEND.png-e873659d6f2fce9f1b5e56bdb4057bff.ctex::
-HEALING NO EFFECT.png::CompressedTexture2D/CompressedTexture2D::6585688454475892859::1741975984::1741975991::1::::<><><>0<>0<>d822ce42a56733079e434ea31e4cacfe<>res://.godot/imported/HEALING NO EFFECT.png-11bcab0e7a43a5b5ebdaa88b7113f580.ctex::
-HEALING.png::CompressedTexture2D/CompressedTexture2D::7207484502508130033::1741975984::1741975991::1::::<><><>0<>0<>49caef815f63eb507778f960bbf37a73<>res://.godot/imported/HEALING.png-cd49cad311a9468adb44be97ea7af343.ctex::
-HURT.png::CompressedTexture2D/CompressedTexture2D::6303259578026718738::1741975984::1741975991::1::::<><><>0<>0<>39b4515adeffbed12d9d83f553573bba<>res://.godot/imported/HURT.png-a9038e458cd59bcadd1f345ab557c654.ctex::
-IDLE.png::CompressedTexture2D/CompressedTexture2D::8840046616906820162::1741975984::1741975991::1::::<><><>0<>0<>9c4764df373a98508b59d1b65dd3938e<>res://.godot/imported/IDLE.png-ce0d51643a7036c6612bb6ec1a12dcba.ctex::
-JUMP-FALL.png::CompressedTexture2D/CompressedTexture2D::6525000689967799577::1741975984::1741975991::1::::<><><>0<>0<>d2b89a30783860f61a8245692df8495f<>res://.godot/imported/JUMP-FALL.png-e501e15385920d0a3f86db1921c5bb1f.ctex::
-JUMP-START.png::CompressedTexture2D/CompressedTexture2D::742729552835303354::1741975984::1741975991::1::::<><><>0<>0<>a680c92a014bc335b60f36fc496f5404<>res://.godot/imported/JUMP-START.png-f746938e306cf55f9b110a91e4a16748.ctex::
-JUMP-TRANSITION.png::CompressedTexture2D/CompressedTexture2D::552048056165484264::1741975984::1741975991::1::::<><><>0<>0<>24ca70e58eacb91c27ceba78061da7a5<>res://.godot/imported/JUMP-TRANSITION.png-69a576bd47438377086d70cb24aa284d.ctex::
-JUMP.png::CompressedTexture2D/CompressedTexture2D::2200447447528294581::1741975984::1741975991::1::::<><><>0<>0<>e52995ef35232511240dc7c1b9424389<>res://.godot/imported/JUMP.png-0f21adec2d93a692700ade5f434ff20c.ctex::
-RUN.png::CompressedTexture2D/CompressedTexture2D::1983200472683752315::1741975984::1741975991::1::::<><><>0<>0<>d26d8b2b99dcf2b81e52a7467a711a27<>res://.godot/imported/RUN.png-2600c2ed0ca7f9fe92ab49dc795091a9.ctex::
-SPECIAL ATTACK.png::CompressedTexture2D/CompressedTexture2D::663915059296796853::1741975984::1741975991::1::::<><><>0<>0<>f731cbaa5912b47a01f6ae415b9e3b52<>res://.godot/imported/SPECIAL ATTACK.png-6442e186e30ed90053584a8005d8835e.ctex::
-THROW.png::CompressedTexture2D/CompressedTexture2D::8960811142303875420::1741975984::1741975991::1::::<><><>0<>0<>9131e3454c8188ac0bb17784645fa058<>res://.godot/imported/THROW.png-b13a02ff48ed44285a5498d2862f3a7c.ctex::
-WALK.png::CompressedTexture2D/CompressedTexture2D::8557845898009546058::1741975984::1741975991::1::::<><><>0<>0<>29394f7e82948651e9e141111e4ccc7c<>res://.godot/imported/WALK.png-a08e67ae9a8fb5a3b81a142014d5b047.ctex::
-WALL CONTACT.png::CompressedTexture2D/CompressedTexture2D::1331306857924437851::1741975984::1741975991::1::::<><><>0<>0<>186e5555995b84c3a83a38ff5395de35<>res://.godot/imported/WALL CONTACT.png-4fe055e56f691c7715680f3e0d0ee845.ctex::
-WALL JUMP.png::CompressedTexture2D/CompressedTexture2D::8535029877864715071::1741975984::1741975991::1::::<><><>0<>0<>96ba4d45ddf98707989a3021115adef0<>res://.godot/imported/WALL JUMP.png-5c8901c8b93bbc51e1c9372f04618f37.ctex::
-WALL SLIDE.png::CompressedTexture2D/CompressedTexture2D::5244387352868959210::1741975984::1741975991::1::::<><><>0<>0<>08ca901b6b355bbab7f2e7fcbd77bebf<>res://.godot/imported/WALL SLIDE.png-7b03e15a92c7947960929f5ee85e74d0.ctex::
+::res://Assets/Meshes/Animations/::1741982120
+::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/::1741982125
+License.txt::TextFile/TextFile::-1::1741982120::0::1::::<><><>0<>0<><>::
+Preview.png::CompressedTexture2D/CompressedTexture2D::1505071557484141850::1741982120::1741982125::1::::<><><>0<>0<>c68da467fe59aebcd409a5bfe5a28546<>res://.godot/imported/Preview.png-3b5bb7014d0b5da6197b79b2e751cd69.ctex::
+shuriken.png::CompressedTexture2D/CompressedTexture2D::6927153257436207316::1741982120::1741982125::1::::<><><>0<>0<>67a129c8e444ef8ef22dcd430a8e1d37<>res://.godot/imported/shuriken.png-9e85ad7e0edb7a33ffae80cb324a4fa2.ctex::
+::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/::1741982125
+AIR ATTACK.png::CompressedTexture2D/CompressedTexture2D::7190112073271416742::1741982120::1741982125::1::::<><><>0<>0<>cc6d1e69fd48e1920dcd53171e268c9d<>res://.godot/imported/AIR ATTACK.png-0e52c38bd08e11407d528fb7627e4f25.ctex::
+ATTACK 1.png::CompressedTexture2D/CompressedTexture2D::2937625597018091081::1741982120::1741982125::1::::<><><>0<>0<>24b0548b7087374f6c2e817d12db3385<>res://.godot/imported/ATTACK 1.png-a20da6e6a0f0e9ad41bcfd66b11b1130.ctex::
+ATTACK 2.png::CompressedTexture2D/CompressedTexture2D::3058302392821121610::1741982120::1741982125::1::::<><><>0<>0<>2532609e803754709b62e420d231cfde<>res://.godot/imported/ATTACK 2.png-ad790c0662a309f111a0e03cfaf592f3.ctex::
+ATTACK 3.png::CompressedTexture2D/CompressedTexture2D::7036526110970041916::1741982120::1741982125::1::::<><><>0<>0<>2c249bf8790077dc5d9069f4c2324258<>res://.godot/imported/ATTACK 3.png-db28c209dc71eb8f42e5eb82f6fe61db.ctex::
+CLIMBING.png::CompressedTexture2D/CompressedTexture2D::7910202694610444088::1741982120::1741982125::1::::<><><>0<>0<>a393236938027eeb481ce0f8728b7522<>res://.godot/imported/CLIMBING.png-47f64b9c22024c37608fed11183d54e8.ctex::
+DASH.png::CompressedTexture2D/CompressedTexture2D::4028677311811466066::1741982120::1741982125::1::::<><><>0<>0<>9c04661ed55ec305d97246906d2c6da9<>res://.godot/imported/DASH.png-b5507d16a03a6815b334aa39262e3e74.ctex::
+DEATH.png::CompressedTexture2D/CompressedTexture2D::8350294011265552730::1741982120::1741982125::1::::<><><>0<>0<>4317d723ad9931a42c1b97d098ba3348<>res://.godot/imported/DEATH.png-c22215cf57bebd3afe942b229db97b02.ctex::
+DEFEND.png::CompressedTexture2D/CompressedTexture2D::520676696363026033::1741982120::1741982125::1::::<><><>0<>0<>a16125dcc0a0274af201dc89aad0e225<>res://.godot/imported/DEFEND.png-e873659d6f2fce9f1b5e56bdb4057bff.ctex::
+HEALING NO EFFECT.png::CompressedTexture2D/CompressedTexture2D::6585688454475892859::1741982120::1741982125::1::::<><><>0<>0<>d822ce42a56733079e434ea31e4cacfe<>res://.godot/imported/HEALING NO EFFECT.png-11bcab0e7a43a5b5ebdaa88b7113f580.ctex::
+HEALING.png::CompressedTexture2D/CompressedTexture2D::7207484502508130033::1741982120::1741982125::1::::<><><>0<>0<>49caef815f63eb507778f960bbf37a73<>res://.godot/imported/HEALING.png-cd49cad311a9468adb44be97ea7af343.ctex::
+HURT.png::CompressedTexture2D/CompressedTexture2D::6303259578026718738::1741982120::1741982125::1::::<><><>0<>0<>39b4515adeffbed12d9d83f553573bba<>res://.godot/imported/HURT.png-a9038e458cd59bcadd1f345ab557c654.ctex::
+IDLE.png::CompressedTexture2D/CompressedTexture2D::8840046616906820162::1741982120::1741982125::1::::<><><>0<>0<>9c4764df373a98508b59d1b65dd3938e<>res://.godot/imported/IDLE.png-ce0d51643a7036c6612bb6ec1a12dcba.ctex::
+JUMP-FALL.png::CompressedTexture2D/CompressedTexture2D::6525000689967799577::1741982120::1741982125::1::::<><><>0<>0<>d2b89a30783860f61a8245692df8495f<>res://.godot/imported/JUMP-FALL.png-e501e15385920d0a3f86db1921c5bb1f.ctex::
+JUMP-START.png::CompressedTexture2D/CompressedTexture2D::742729552835303354::1741982120::1741982125::1::::<><><>0<>0<>a680c92a014bc335b60f36fc496f5404<>res://.godot/imported/JUMP-START.png-f746938e306cf55f9b110a91e4a16748.ctex::
+JUMP-TRANSITION.png::CompressedTexture2D/CompressedTexture2D::552048056165484264::1741982120::1741982125::1::::<><><>0<>0<>24ca70e58eacb91c27ceba78061da7a5<>res://.godot/imported/JUMP-TRANSITION.png-69a576bd47438377086d70cb24aa284d.ctex::
+JUMP.png::CompressedTexture2D/CompressedTexture2D::2200447447528294581::1741982120::1741982125::1::::<><><>0<>0<>e52995ef35232511240dc7c1b9424389<>res://.godot/imported/JUMP.png-0f21adec2d93a692700ade5f434ff20c.ctex::
+RUN.png::CompressedTexture2D/CompressedTexture2D::1983200472683752315::1741982120::1741982125::1::::<><><>0<>0<>d26d8b2b99dcf2b81e52a7467a711a27<>res://.godot/imported/RUN.png-2600c2ed0ca7f9fe92ab49dc795091a9.ctex::
+SPECIAL ATTACK.png::CompressedTexture2D/CompressedTexture2D::663915059296796853::1741982120::1741982125::1::::<><><>0<>0<>f731cbaa5912b47a01f6ae415b9e3b52<>res://.godot/imported/SPECIAL ATTACK.png-6442e186e30ed90053584a8005d8835e.ctex::
+THROW.png::CompressedTexture2D/CompressedTexture2D::8960811142303875420::1741982120::1741982125::1::::<><><>0<>0<>9131e3454c8188ac0bb17784645fa058<>res://.godot/imported/THROW.png-b13a02ff48ed44285a5498d2862f3a7c.ctex::
+WALK.png::CompressedTexture2D/CompressedTexture2D::8557845898009546058::1741982120::1741982125::1::::<><><>0<>0<>29394f7e82948651e9e141111e4ccc7c<>res://.godot/imported/WALK.png-a08e67ae9a8fb5a3b81a142014d5b047.ctex::
+WALL CONTACT.png::CompressedTexture2D/CompressedTexture2D::1331306857924437851::1741982120::1741982125::1::::<><><>0<>0<>186e5555995b84c3a83a38ff5395de35<>res://.godot/imported/WALL CONTACT.png-4fe055e56f691c7715680f3e0d0ee845.ctex::
+WALL JUMP.png::CompressedTexture2D/CompressedTexture2D::8535029877864715071::1741982120::1741982125::1::::<><><>0<>0<>96ba4d45ddf98707989a3021115adef0<>res://.godot/imported/WALL JUMP.png-5c8901c8b93bbc51e1c9372f04618f37.ctex::
+WALL SLIDE.png::CompressedTexture2D/CompressedTexture2D::5244387352868959210::1741982120::1741982125::1::::<><><>0<>0<>08ca901b6b355bbab7f2e7fcbd77bebf<>res://.godot/imported/WALL SLIDE.png-7b03e15a92c7947960929f5ee85e74d0.ctex::
 ::res://Assets/Meshes/Animations/Samurai #2 2D Pixel Art/::1741972976
 License.txt::TextFile/TextFile::-1::1741972913::0::1::::<><><>0<>0<><>::
 Preview.png::CompressedTexture2D/CompressedTexture2D::5494259640782790621::1741972913::1741972976::1::::<><><>0<>0<>cc67ec194755af5246db5781726b1872<>res://.godot/imported/Preview.png-db0be42a92761f2d88030ca13d158573.ctex::
@@ -860,17 +860,18 @@ mouse_scroll_vertical.svg::CompressedTexture2D/CompressedTexture2D::701669727548
 mouse_scroll_vertical_outline.svg::CompressedTexture2D/CompressedTexture2D::1332944165044263050::1741972913::1741972975::1::::<><><>0<>0<>e07c2c536553054183fe8b395abf2e11<>res://.godot/imported/mouse_scroll_vertical_outline.svg-2f47c7d053c786f2dba48bddf718fb0b.ctex::
 mouse_small.svg::CompressedTexture2D/CompressedTexture2D::7946506847087888980::1741972913::1741972975::1::::<><><>0<>0<>b3ced8df15d6a85a5ab14c7211cc0576<>res://.godot/imported/mouse_small.svg-d88d608b64c3814d464f067444bdcccd.ctex::
 mouse_vertical.svg::CompressedTexture2D/CompressedTexture2D::3134260108573158020::1741972913::1741972975::1::::<><><>0<>0<>9bf83df4c8c79a5cd942ac7b80b73643<>res://.godot/imported/mouse_vertical.svg-9d14f60e6bdd72c5b08d1a6c0b74857f.ctex::
-::res://Resources/::1741973161
-CharacterResource.gd::GDScript/GDScript::5600639409414138040::1741973161::0::1::::Character<>Resource<><>0<>0<><>::
-::res://Scenes/::1741972913
-::res://Scenes/Components/::1741976585
-movement_controller.gd::GDScript::7136596138192710595::1741976609::0::1::::<>Node<><>0<>0<><>::
-movement_controller.tscn::PackedScene::2819289542898925997::1741976609::0::1::::<><><>0<>0<><>::uid://c8xaxwi3c61yt::::res://Scenes/Components/movement_controller.gd
-::res://Scenes/Components/Jump Component/::1741976585
-jump_controller.gd::GDScript::1412476544041706968::1741976587::0::1::::<>Node2D<><>0<>0<><>::
-::res://Scenes/Components/Movement Component/::0
-::res://Scenes/Player/::1741976379
-player.gd::GDScript::5335946046359151732::1741975855::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-Player.tscn::PackedScene::5345787862546394856::1741976609::0::1::::<><><>0<>0<><>::uid://cia1itco2cfkm::::res://Scenes/Player/player.gd<>uid://bwgcw6g7rrgr5::::res://Scenes/Player/Resources/PlayerResource.tres<>uid://bgfxj0vcj024p::::res://Scenes/Components/movement_controller.tscn<>uid://dx7gjnlc0ld3w::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/IDLE.png<>uid://uehjumdv7yf5::::res://Scenes/Components/Jump Component/jump_controller.gd
-::res://Scenes/Player/Resources/::1741976379
-PlayerResource.tres::Resource/Character::3943123870675620752::1741976379::0::1::::<><><>0<>0<><>::uid://cl18yiai38nuu::::res://Resources/CharacterResource.gd
+::res://Resources/::1741982120
+CharacterResource.gd::GDScript::5600639409414138040::1741982120::0::1::::Character<>Resource<><>0<>0<><>::
+::res://Scenes/::1741982120
+::res://Scenes/Components/::1741982120
+::res://Scenes/Components/Jump Component/::1741982907
+jump_controller.gd::GDScript::1412476544041706968::1741982831::0::1::::<>Node2D<><>0<>0<><>::
+jump_controller.tscn::PackedScene::6438208910238312198::1741982907::0::1::::<><><>0<>0<><>::uid://uehjumdv7yf5::::res://Scenes/Components/Jump Component/jump_controller.gd
+::res://Scenes/Components/Movement Component/::1741982907
+movement_controller.gd::GDScript::7136596138192710595::1741982120::0::1::::<>Node<><>0<>0<><>::
+movement_controller.tscn::PackedScene::2819289542898925997::1741982907::0::1::::<><><>0<>0<><>::uid://c8xaxwi3c61yt::::res://Scenes/Components/Movement Component/movement_controller.gd
+::res://Scenes/Player/::1741982907
+player.gd::GDScript::5335946046359151732::1741982906::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+Player.tscn::PackedScene::5345787862546394856::1741982907::0::1::::<><><>0<>0<><>::uid://cia1itco2cfkm::::res://Scenes/Player/player.gd<>uid://bwgcw6g7rrgr5::::res://Scenes/Player/Resources/PlayerResource.tres<>uid://bgfxj0vcj024p::::res://Scenes/Components/Movement Component/movement_controller.tscn<>uid://dx7gjnlc0ld3w::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/IDLE.png<>uid://cxyymikcayo7o::::res://Scenes/Components/Jump Component/jump_controller.tscn
+::res://Scenes/Player/Resources/::1741982147
+PlayerResource.tres::Resource/Character::3943123870675620752::1741982147::0::1::::<><><>0<>0<><>::uid://cl18yiai38nuu::::res://Resources/CharacterResource.gd
