@@ -11,6 +11,9 @@ size = Vector2(272, 20)
 [node name="Player" parent="." instance=ExtResource("2_6uqi0")]
 position = Vector2(551, 259)
 
+[node name="AnimatedSprite" parent="Player" index="1"]
+animation = &"Idle"
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(548, 288)
 metadata/_edit_group_ = true
@@ -61,3 +64,5 @@ shape = SubResource("RectangleShape2D_ppyta")
 position = Vector2(-0.5, 1.90735e-06)
 scale = Vector2(2.11719, 0.15625)
 texture = ExtResource("1_8uh7m")
+
+[editable path="Player"]

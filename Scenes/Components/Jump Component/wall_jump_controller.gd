@@ -15,8 +15,9 @@ extends Node
 
 
 func _physics_process(delta: float) -> void:
-	if Input.is_action_just_pressed(jump) and player.is_on_wall():
-		apply_jump(force * movement.direction, wall_jump_force)
+	if player.is_on_wall():
+		if Input.is_action_just_pressed(jump):
+			apply_jump(force * movement.direction, wall_jump_force)
 
 
 func apply_jump(horizontal_force: float, vertical_force: float):
