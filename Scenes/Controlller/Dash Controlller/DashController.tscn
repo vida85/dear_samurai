@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://nk6ve5x3fdu2"]
+
+[ext_resource type="Script" uid="uid://dssjdm8thkf0d" path="res://Scenes/Controlller/Dash Controlller/dash_controller.gd" id="1_nw5jx"]
+
+[node name="DashController" type="Node"]
+script = ExtResource("1_nw5jx")

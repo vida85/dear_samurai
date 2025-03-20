@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqx2wk53radj2"]
+
+[ext_resource type="Script" uid="uid://68shla4o8ftc" path="res://Scenes/Controlller/Jump Controlller/wall_jump_controller.gd" id="1_m45uh"]
+
+[node name="WallJumpController" type="Node"]
+script = ExtResource("1_m45uh")

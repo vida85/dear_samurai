@@ -1,15 +1,15 @@
-[gd_scene load_steps=226 format=3 uid="uid://cifsly5repj8k"]
+[gd_scene load_steps=228 format=3 uid="uid://cifsly5repj8k"]
 
 [ext_resource type="Script" uid="uid://cia1itco2cfkm" path="res://Scenes/Player/player.gd" id="1_ft8w5"]
 [ext_resource type="Resource" uid="uid://bwgcw6g7rrgr5" path="res://Scenes/Player/Resources/PlayerResource.tres" id="2_h54ih"]
-[ext_resource type="PackedScene" uid="uid://bgfxj0vcj024p" path="res://Scenes/Components/Movement Component/movement_controller.tscn" id="3_h54ih"]
+[ext_resource type="PackedScene" uid="uid://bgfxj0vcj024p" path="res://Scenes/Controlller/Movement Controlller/MovementController.tscn" id="3_h54ih"]
 [ext_resource type="Texture2D" uid="uid://dx7gjnlc0ld3w" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/IDLE.png" id="3_ude3g"]
 [ext_resource type="Texture2D" uid="uid://dao7dih7w7k0m" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/AIR ATTACK.png" id="3_w71ue"]
 [ext_resource type="Texture2D" uid="uid://bh4ai8vuoxtbd" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 1.png" id="4_1e6p3"]
 [ext_resource type="Texture2D" uid="uid://dt6qqbgxf4rha" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALK.png" id="4_t26db"]
-[ext_resource type="PackedScene" uid="uid://cxyymikcayo7o" path="res://Scenes/Components/Jump Component/jump_controller.tscn" id="5_jmcll"]
+[ext_resource type="PackedScene" uid="uid://cxyymikcayo7o" path="res://Scenes/Controlller/Jump Controlller/JumpController.tscn" id="5_jmcll"]
 [ext_resource type="Texture2D" uid="uid://bjtp18nd2ekyc" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 2.png" id="5_yb677"]
-[ext_resource type="PackedScene" uid="uid://bqx2wk53radj2" path="res://Scenes/Components/Jump Component/wall_jump_controller.tscn" id="6_4wape"]
+[ext_resource type="PackedScene" uid="uid://bqx2wk53radj2" path="res://Scenes/Controlller/Jump Controlller/WallJumpController.tscn" id="6_4wape"]
 [ext_resource type="Texture2D" uid="uid://c7iss65i7agxw" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 3.png" id="6_8cj01"]
 [ext_resource type="Texture2D" uid="uid://dkx05anb7mfv1" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/CLIMBING.png" id="7_i2g7t"]
 [ext_resource type="Texture2D" uid="uid://bxnryydlludcs" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/DASH.png" id="8_io2mu"]
@@ -28,6 +28,8 @@
 [ext_resource type="Texture2D" uid="uid://s75ouo4aj4lj" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL CONTACT.png" id="23_wwmao"]
 [ext_resource type="Texture2D" uid="uid://dtuoxvsn1u4sh" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL JUMP.png" id="24_7xdrn"]
 [ext_resource type="Texture2D" uid="uid://cgyoj8jhqa00u" path="res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL SLIDE.png" id="25_wid83"]
+[ext_resource type="Script" uid="uid://b0out77r7wnmj" path="res://Scenes/Controlller/Character Controlller/character_controller.gd" id="26_wid83"]
+[ext_resource type="PackedScene" uid="uid://nk6ve5x3fdu2" path="res://Scenes/Controlller/Dash Controlller/DashController.tscn" id="29_7xdrn"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ude3g"]
 radius = 7.0
@@ -2020,17 +2022,25 @@ libraries = {
 &"": SubResource("AnimationLibrary_daopn")
 }
 
-[node name="MovementController" parent="." node_paths=PackedStringArray("player") instance=ExtResource("3_h54ih")]
+[node name="CharacterController" type="Node" parent="." node_paths=PackedStringArray("player", "move_controller", "jump_controller", "wall_jump_controller", "dash_controller")]
+script = ExtResource("26_wid83")
 player = NodePath("..")
-walk_speed = 55.0
-run_speed = 140.0
+move_controller = NodePath("MovementController")
+jump_controller = NodePath("JumpController")
+wall_jump_controller = NodePath("WallJumpController")
+dash_controller = NodePath("DashController")
 
-[node name="JumpController" parent="." node_paths=PackedStringArray("player") instance=ExtResource("5_jmcll")]
-player = NodePath("..")
+[node name="MovementController" parent="CharacterController" instance=ExtResource("3_h54ih")]
+unique_name_in_owner = true
 
-[node name="WallJumpController" parent="." node_paths=PackedStringArray("player", "movement") instance=ExtResource("6_4wape")]
-player = NodePath("..")
-movement = NodePath("../MovementController")
+[node name="JumpController" parent="CharacterController" instance=ExtResource("5_jmcll")]
+unique_name_in_owner = true
+
+[node name="WallJumpController" parent="CharacterController" instance=ExtResource("6_4wape")]
+unique_name_in_owner = true
+
+[node name="DashController" parent="CharacterController" instance=ExtResource("29_7xdrn")]
+unique_name_in_owner = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(2, 2)
