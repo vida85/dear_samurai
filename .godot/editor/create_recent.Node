@@ -1,6 +1,9 @@
+AudioStreamPlayer
 Node
-AnimationPlayer
 RayCast2D
+AudioStreamPlayer2D
+TileMapLayer
+AnimationPlayer
 Node2D
 Sprite2D
 MeshInstance2D

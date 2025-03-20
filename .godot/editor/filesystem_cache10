@@ -1,17 +1,59 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742424481
+::res://::1742498011
 icon.svg::CompressedTexture2D/CompressedTexture2D::5779990457849949::1741972913::1741972975::1::::<><><>0<>0<>4a7b2a02ea7c0820bc3a257c2c491153<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile/TextFile::-1::1741972913::0::1::::<><><>0<>0<><>::
 TASKS.md::TextFile/TextFile::-1::1742424227::0::1::::<><><>0<>0<><>::
-test.tscn::PackedScene/PackedScene::9135106086883825927::1742424249::0::1::::<><><>0<>0<><>::uid://c2gwd2fbk66::::res://icon.svg<>uid://cifsly5repj8k::::res://Scenes/Player/Player.tscn
+test.tscn::PackedScene::9135106086883825927::1742498011::0::1::::<><><>0<>0<><>::uid://0dxortbsoamk::::res://Scenes/GPU_Fx/LeavesVFX.tscn<>uid://cifsly5repj8k::::res://Scenes/Player/Player.tscn<>uid://bhdd03jjtol2w::::res://Assets/Meshes/Tileset/Tileset.png<>uid://br4vdtd5tj1oo::::res://Assets/Meshes/Autumn Forest/Trees/ELR_FallLeaf.png
 ::res://addons/::1742137260
 ::res://addons/AS2P/::1742137260
 InspectorConvertor.gd::GDScript/GDScript::4934646103401493429::1742137260::0::1::::<>EditorInspectorPlugin<><>0<>1<><>::
 NodeSelectorProperty.gd::GDScript/GDScript::2809243077238361061::1742137260::0::1::::<>EditorProperty<><>0<>1<><>::
 plugin.cfg::TextFile/TextFile::-1::1742137260::0::1::::<><><>0<>0<><>::
 plugin.gd::GDScript/GDScript::3999447279087892578::1742137260::0::1::::<>EditorPlugin<><>0<>1<><>::
-::res://Assets/::1741972913
-::res://Assets/Meshes/::1742405384
+::res://Assets/::1742493847
+::res://Assets/Audio/::1742493859
+::res://Assets/Audio/Music/::1742494020
+jungle-ish-beat-for-video-games-314073.mp3::AudioStreamMP3::8239727435728006885::1742494020::1742494020::1::::<><><>0<>0<>733ccce6a8e4b4bde3f774732018aff9<>res://.godot/imported/jungle-ish-beat-for-video-games-314073.mp3-d747946f8fe7897ca2261a5cd27b8eaa.mp3str::
+video-game-music-leveltitlecredits-281267.mp3::AudioStreamMP3::2784596424352833332::1742494020::1742494020::1::::<><><>0<>0<>104ecf9cf009ee263d241e0d1e91ae86<>res://.godot/imported/video-game-music-leveltitlecredits-281267.mp3-68b557a10bba038a54838f57d8d8b5d2.mp3str::
+::res://Assets/Audio/SFX/::1742493862
+::res://Assets/Audio/SFX/WAV/::1742493866
+Footsteps_Dirt_01.wav::AudioStreamWAV::1140875142375244590::1742493862::1742493866::1::::<><><>0<>0<>d7ee95752c8e66528cd9221ca19baaa9<>res://.godot/imported/Footsteps_Dirt_01.wav-31852816874a40705d6d460147641e76.sample::
+Footsteps_Dirt_02.wav::AudioStreamWAV::7720564640720748053::1742493862::1742493866::1::::<><><>0<>0<>63b9526a921993ed3b9763b747128878<>res://.godot/imported/Footsteps_Dirt_02.wav-066e9e9493f95a765ba7cb20f22eb562.sample::
+Footsteps_Dirt_03.wav::AudioStreamWAV::7118729134677237409::1742493862::1742493866::1::::<><><>0<>0<>d2785ecae540bc92df08efb61c5086c2<>res://.godot/imported/Footsteps_Dirt_03.wav-d597a57291bddb7ad69fa4c21317c585.sample::
+Footsteps_Dirt_04.wav::AudioStreamWAV::5436775055664541928::1742493862::1742493866::1::::<><><>0<>0<>a6b9c4dab06c63d4cb1c1826f2eabb5d<>res://.godot/imported/Footsteps_Dirt_04.wav-9372657319cc3d0245d13cf6ef9d8b27.sample::
+Footsteps_Floor_01.wav::AudioStreamWAV::141573285718577829::1742493862::1742493866::1::::<><><>0<>0<>c75fd1218ad94dfeacbba51f91353d48<>res://.godot/imported/Footsteps_Floor_01.wav-2c76d45a27065aef76d86f02e1aa9b51.sample::
+Footsteps_Floor_02.wav::AudioStreamWAV::775149761559444065::1742493862::1742493866::1::::<><><>0<>0<>6b00a5e9127ea5a4a5ce37d12afb6a75<>res://.godot/imported/Footsteps_Floor_02.wav-aa3b8f80b42fd64360ece1f2b8e7b664.sample::
+Footsteps_Floor_03.wav::AudioStreamWAV::180262228244023296::1742493862::1742493866::1::::<><><>0<>0<>da0bb506dd6cddf27bb29486a6422949<>res://.godot/imported/Footsteps_Floor_03.wav-485755ad6c9773a153e1e7286220b93e.sample::
+Footsteps_Floor_04.wav::AudioStreamWAV::2731976557102902151::1742493862::1742493866::1::::<><><>0<>0<>877aec89436fd7f7b56cb34ea83f12de<>res://.godot/imported/Footsteps_Floor_04.wav-c68785c1f5ce021377439e7c3935a947.sample::
+Footsteps_Grass_01.wav::AudioStreamWAV::2844670802627014014::1742493862::1742493866::1::::<><><>0<>0<>7b09aa9652bcf8535254257bcaa7da3b<>res://.godot/imported/Footsteps_Grass_01.wav-de94143e0974287bbc05ccae9a95e767.sample::
+Footsteps_Grass_02.wav::AudioStreamWAV::4541184841685530365::1742493862::1742493866::1::::<><><>0<>0<>86950c829c35907d68f7f80d4f95899e<>res://.godot/imported/Footsteps_Grass_02.wav-ffc7bc48ec4ec989afa148ae28c5055c.sample::
+Footsteps_Grass_03.wav::AudioStreamWAV::2886473781289591035::1742493862::1742493866::1::::<><><>0<>0<>d63df309ee447059931a730f413259a4<>res://.godot/imported/Footsteps_Grass_03.wav-3e7cfd2bbedca288d99bbac280f00b9d.sample::
+Footsteps_Grass_04.wav::AudioStreamWAV::6739577579007336926::1742493862::1742493866::1::::<><><>0<>0<>558a8856baea2e5118811a16af2880d6<>res://.godot/imported/Footsteps_Grass_04.wav-431b9abb65b8017ee76bc5f9c3f164b3.sample::
+Footsteps_Metal_1.wav::AudioStreamWAV::8029759046910475135::1742493863::1742493866::1::::<><><>0<>0<>954c41b1c8654cbd12eba470e5173796<>res://.godot/imported/Footsteps_Metal_1.wav-2b4390a0d54ae2ba6a9b23330c97c69c.sample::
+Footsteps_Metal_2.wav::AudioStreamWAV::7073980398462123782::1742493863::1742493866::1::::<><><>0<>0<>c785013b31de8c978647fece7a5c2b82<>res://.godot/imported/Footsteps_Metal_2.wav-ab4487c1bf5445f3024a975f604a446f.sample::
+Footsteps_Metal_3.wav::AudioStreamWAV::4527598605009033651::1742493863::1742493866::1::::<><><>0<>0<>88362e1f15a71ebdb298dd807fc07833<>res://.godot/imported/Footsteps_Metal_3.wav-70e1db45411a00ecc0c6540fa96be67f.sample::
+Footsteps_Metal_4.wav::AudioStreamWAV::4305306604180310542::1742493863::1742493866::1::::<><><>0<>0<>31624ffd4690e65b1950ace9e30ae0d8<>res://.godot/imported/Footsteps_Metal_4.wav-7288b7331eac9415d9fcef691bd7de94.sample::
+Footsteps_Mud_1.wav::AudioStreamWAV::3131254107156448414::1742493862::1742493866::1::::<><><>0<>0<>ab830d75feaad0442689bb4333020556<>res://.godot/imported/Footsteps_Mud_1.wav-ba7ba51da091bc6f3cd69279144630ad.sample::
+Footsteps_Mud_2.wav::AudioStreamWAV::4724025419644191714::1742493862::1742493866::1::::<><><>0<>0<>9251586ea06ddb1300883624c6a2004f<>res://.godot/imported/Footsteps_Mud_2.wav-feeef104ec47016847211263ab5b4ee5.sample::
+Footsteps_Mud_3.wav::AudioStreamWAV::535864455555275523::1742493862::1742493866::1::::<><><>0<>0<>62650d8aa932895fc167757f28ff6c9b<>res://.godot/imported/Footsteps_Mud_3.wav-36ec791e7950bdfe1c656d1e5f122aac.sample::
+Footsteps_Mud_4.wav::AudioStreamWAV::8837089178939867932::1742493862::1742493866::1::::<><><>0<>0<>1d03b301c0f4bd4490b8b084b59374dc<>res://.godot/imported/Footsteps_Mud_4.wav-f6398a3a1d60f0518ad4cda1bf6bd2ce.sample::
+Footsteps_Snow_01.wav::AudioStreamWAV::1294116772143744490::1742493862::1742493866::1::::<><><>0<>0<>380f17ae6431cd3ea42fe94c94e23400<>res://.godot/imported/Footsteps_Snow_01.wav-33c62220afa7e1ac6244e8a4ce5806c6.sample::
+Footsteps_Snow_02.wav::AudioStreamWAV::46630644043379768::1742493862::1742493866::1::::<><><>0<>0<>bb8d2de580b22986ebd94a60d44621c1<>res://.godot/imported/Footsteps_Snow_02.wav-20bec9bc825f8c2b346786fbf576173a.sample::
+Footsteps_Snow_03.wav::AudioStreamWAV::6837777840119242696::1742493862::1742493866::1::::<><><>0<>0<>4a960db7bb709c8695a35d58b24f2556<>res://.godot/imported/Footsteps_Snow_03.wav-eae4399228b31f47f7e329e81b93c105.sample::
+Footsteps_Snow_04.wav::AudioStreamWAV::5497935395420060708::1742493862::1742493866::1::::<><><>0<>0<>33ed7363a09da7cfb6bcc04271b6b460<>res://.godot/imported/Footsteps_Snow_04.wav-2528ffc03efde6aca1f9bf5a6baece2e.sample::
+Footsteps_Stone_Tiles_01.wav::AudioStreamWAV::6042241972134978621::1742493862::1742493866::1::::<><><>0<>0<>a38e8e20cdd01f21e4a4342e9ae7a3d1<>res://.godot/imported/Footsteps_Stone_Tiles_01.wav-0af9695e5c3f61a94359386a44e2b43f.sample::
+Footsteps_Stone_Tiles_02.wav::AudioStreamWAV::5604127228884841609::1742493862::1742493866::1::::<><><>0<>0<>eb6cb0d1b37dd61da95cbc558eb09d8a<>res://.godot/imported/Footsteps_Stone_Tiles_02.wav-d841c81a945d6f15fdb9c002b865354c.sample::
+Footsteps_Stone_Tiles_03.wav::AudioStreamWAV::952441253963379806::1742493862::1742493866::1::::<><><>0<>0<>eae53a9865c94d68198efa32fff4860d<>res://.godot/imported/Footsteps_Stone_Tiles_03.wav-a9f12a54b7638f596c88df923e58298e.sample::
+Footsteps_Stone_Tiles_04.wav::AudioStreamWAV::3243131761374302047::1742493862::1742493866::1::::<><><>0<>0<>650ded04519d9f9d907d7197c133b0ca<>res://.godot/imported/Footsteps_Stone_Tiles_04.wav-9aa496b7703c1150f2f0602f0c73d313.sample::
+Footsteps_Water_1.wav::AudioStreamWAV::2958326631668659387::1742493862::1742493866::1::::<><><>0<>0<>ea7a130cbca0a6e4421359bc5d2a1957<>res://.godot/imported/Footsteps_Water_1.wav-46c7a83713bd3a15ec505d8ff6076fbf.sample::
+Footsteps_Water_2.wav::AudioStreamWAV::95958395157385719::1742493862::1742493866::1::::<><><>0<>0<>66709b544142e8b154d0e187e8e388a0<>res://.godot/imported/Footsteps_Water_2.wav-8833efbb786c6b27d128bf1f84aba349.sample::
+Footsteps_Water_3.wav::AudioStreamWAV::311050042111270956::1742493862::1742493866::1::::<><><>0<>0<>30f20396037e9994feaa28e4c984e48c<>res://.godot/imported/Footsteps_Water_3.wav-99de59ff7b86891846fd4a20e08e940d.sample::
+Footsteps_Water_4.wav::AudioStreamWAV::2160354422030950976::1742493863::1742493866::1::::<><><>0<>0<>63f910ae7bf2f6848ef01a5a29da0fa3<>res://.godot/imported/Footsteps_Water_4.wav-85699c1b3a6d8bc95d9c13acec857f43.sample::
+Footsteps_Wood_Squeak_1.wav::AudioStreamWAV::3939035648986528062::1742493863::1742493866::1::::<><><>0<>0<>71246181743e82dd970b333a75154780<>res://.godot/imported/Footsteps_Wood_Squeak_1.wav-c9434cd471c58baeb5b3191b115757a4.sample::
+Footsteps_Wood_Squeak_2.wav::AudioStreamWAV::5268475579840406488::1742493863::1742493866::1::::<><><>0<>0<>e5c3466c4fa5d6456557091900675191<>res://.godot/imported/Footsteps_Wood_Squeak_2.wav-492133d798cadad0c40ca0dcfb0dc186.sample::
+Footsteps_Wood_Squeak_3.wav::AudioStreamWAV::3917446027821310374::1742493863::1742493866::1::::<><><>0<>0<>6a69f2217c26bc4711e44f80e422183f<>res://.godot/imported/Footsteps_Wood_Squeak_3.wav-c83e55383d7ef09358a44c9a1f566c7b.sample::
+Footsteps_Wood_Squeak_4.wav::AudioStreamWAV::983879413674969523::1742493863::1742493866::1::::<><><>0<>0<>54a09d841fca8bf1ac752fc5a6e33c8a<>res://.godot/imported/Footsteps_Wood_Squeak_4.wav-31dc9d488b063c8ef31369fb41c310f4.sample::
+::res://Assets/Meshes/::1742498306
 ::res://Assets/Meshes/Animations/::1742405384
 ::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/::1742405384
 License.txt::TextFile/TextFile::-1::1741982120::0::1::::<><><>0<>0<><>::
@@ -133,8 +175,18 @@ Preview.png::CompressedTexture2D/CompressedTexture2D::4747152966859587419::17419
 Flag.png::CompressedTexture2D/CompressedTexture2D::8103918871413305527::1741972913::1741972976::1::::<><><>0<>0<>bcd9df8ab05f38bc2e0be481e7087537<>res://.godot/imported/Flag.png-5559a06e8ba4ca7d016760f769e424d9.ctex::
 Objects.png::CompressedTexture2D/CompressedTexture2D::2676791875681521000::1741972913::1741972976::1::::<><><>0<>0<>80aae60cd10e22f0c4a9e55e85d8581c<>res://.godot/imported/Objects.png-33d5a1d83fecc626b563855f9cc57737.ctex::
 Props.png::CompressedTexture2D/CompressedTexture2D::882428724318085845::1741972913::1741972976::1::::<><><>0<>0<>216d1085c2be852cbd99cedfd8e56d6d<>res://.godot/imported/Props.png-a0f4b156d504f8e8a7136a2c0c7c6264.ctex::
-::res://Assets/Meshes/Autumn Forest/Trees/::1741972976
+::res://Assets/Meshes/Autumn Forest/Trees/::1742491775
+ELR_FallLeaf.png::CompressedTexture2D::3640779398604098890::1726546691::1742491719::1::::<><><>0<>0<>3b7f8f984d86323949b595e255a45783<>res://.godot/imported/ELR_FallLeaf.png-74903fb91407baf496f548b5dc3ad2db.ctex::
+ELR_SpringlLeaf.png::CompressedTexture2D::3023863931217209527::1726546691::1742491719::1::::<><><>0<>0<>e4708e9ca4f605c5f33c37ff9a123867<>res://.godot/imported/ELR_SpringlLeaf.png-163b63940d20d1c30cfedb5e91b26d43.ctex::
+ELR_WinterlLeaf.png::CompressedTexture2D::5154470475958962837::1726546691::1742491719::1::::<><><>0<>0<>39c5adff20f958950afa10b114036827<>res://.godot/imported/ELR_WinterlLeaf.png-d24142b60236dc2651269a53e5581a1d.ctex::
 Trees.png::CompressedTexture2D/CompressedTexture2D::4229424764550517785::1741972913::1741972976::1::::<><><>0<>0<>3905436206168e04429bd4c896f60816<>res://.godot/imported/Trees.png-a468f68bf686edd4c462638224b94203.ctex::
+::res://Assets/Meshes/Mossy Tileset/::1742498306
+Mossy - BackgroundDecoration.png::CompressedTexture2D::9169872809684179557::1742498306::1742498317::1::::<><><>0<>0<>7752f1b96557a5dbdeaafd13ca48f033<>res://.godot/imported/Mossy - BackgroundDecoration.png-9b82ae70cb5c7238a033936a272dc944.ctex::
+Mossy - Decorations&Hazards.png::CompressedTexture2D::928434632833330219::1742498306::1742498318::1::::<><><>0<>0<>89c661b25f6bd33ce1d4a83da261319d<>res://.godot/imported/Mossy - Decorations&Hazards.png-fd00bc0292ebef295481dccc1c14259d.ctex::
+Mossy - FloatingPlatforms.png::CompressedTexture2D::1669100725082234166::1742498306::1742498316::1::::<><><>0<>0<>5da779967689e68b8d14ffce9b6658b3<>res://.godot/imported/Mossy - FloatingPlatforms.png-954144bf66976ba850ff78617b9157c2.ctex::
+Mossy - Hanging Plants.png::CompressedTexture2D::3295203545525771950::1742498306::1742498316::1::::<><><>0<>0<>6d0f8e07cf1cafb17088eee132bb33c0<>res://.godot/imported/Mossy - Hanging Plants.png-0fe7ae74864857fbeb0a8955a5ca0b8d.ctex::
+Mossy - MossyHills.png::CompressedTexture2D::1726197316917238303::1742498306::1742498315::1::::<><><>0<>0<>b76170de19768b4ab9a0813b82bf09da<>res://.godot/imported/Mossy - MossyHills.png-53f76b9fa2b6abbdf4b940950c35c79e.ctex::
+Mossy - TileSet.png::CompressedTexture2D::6840087155296569428::1742498306::1742498316::1::::<><><>0<>0<>19b89d5c08909e5220f04971b0615b4a<>res://.godot/imported/Mossy - TileSet.png-d7a0d62c24faacd87c6da668ad0f14c2.ctex::
 ::res://Assets/Meshes/Tileset/::1741972976
 Tileset.png::CompressedTexture2D/CompressedTexture2D::2884164003239345752::1741972913::1741972976::1::::<><><>0<>0<>bd629934fb3c6bbcf1a778ea3da59ff9<>res://.godot/imported/Tileset.png-f58bc5ec3d51750d30f14c2d998293ce.ctex::
 ::res://Assets/Meshes/Ui/::1741972975
@@ -871,28 +923,32 @@ GameInputs.gd::GDScript/GDScript::1397619050493580341::1742423204::0::1::::<>Nod
 GameInputs.tscn::PackedScene/PackedScene::2055310598364534865::1742424227::0::1::::<><><>0<>0<><>::uid://t6at1j53coqn::::res://Autoload/GameInputs.gd
 ::res://Resources/::1742406136
 CharacterResource.gd::GDScript/GDScript::5600639409414138040::1742406136::0::1::::Character<>Resource<><>0<>0<><>::
-::res://Scenes/::1742405384
-::res://Scenes/Components/::1742424481
-::res://Scenes/Components/Animation Controlller/::1742408599
-animation_controller.gd::GDScript/GDScript::6452289503663432674::1742408599::0::1::::AnimationController<>Node<><>0<>0<><>::
-::res://Scenes/Components/Character Controlller/::1742424455
-character_controller.gd::GDScript::4171293064137260837::1742424526::0::1::::<>Node<><>0<>0<><>::
-::res://Scenes/Components/Dash Controlller/::1742424473
-DashController.tscn::PackedScene/PackedScene::935018730802947863::1742424473::0::1::::<><><>0<>0<><>::uid://dssjdm8thkf0d::::res://Scenes/Components/Dash Controlller/dash_controller.gd
-dash_controller.gd::GDScript/GDScript::8460372528585349449::1742409967::0::1::::<>Node<><>0<>0<><>::
-::res://Scenes/Components/Jump Controlller/::1742424478
-JumpController.tscn::PackedScene::6438208910238312198::1742424531::0::1::::<><><>0<>0<><>::uid://uehjumdv7yf5::::res://Scenes/Components/Jump Controlller/jump_controller.gd
-jump_controller.gd::GDScript::1412476544041706968::1742405376::0::1::::<>Node<><>0<>0<><>::
-WallJumpController.tscn::PackedScene::3558602089388143593::1742424531::0::1::::<><><>0<>0<><>::uid://68shla4o8ftc::::res://Scenes/Components/Jump Controlller/wall_jump_controller.gd
-wall_jump_controller.gd::GDScript::2245084604184598180::1742405688::0::1::::<>Node<><>0<>0<><>::
-::res://Scenes/Components/Movement Controlller/::1742424481
-MovementController.tscn::PackedScene::2819289542898925997::1742424531::0::1::::<><><>0<>0<><>::uid://c8xaxwi3c61yt::::res://Scenes/Components/Movement Controlller/movement_controller.gd
-movement_controller.gd::GDScript::7136596138192710595::1742423138::0::1::::Movement<>Node<><>0<>0<><>::
-::res://Scenes/Player/::1742424481
-player.gd::GDScript/GDScript::5335946046359151732::1742412619::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
-Player.tscn::PackedScene::5345787862546394856::1742424531::0::1::::<><><>0<>0<><>::uid://cia1itco2cfkm::::res://Scenes/Player/player.gd<>uid://bwgcw6g7rrgr5::::res://Scenes/Player/Resources/PlayerResource.tres<>uid://bgfxj0vcj024p::::res://Scenes/Components/Movement Controlller/MovementController.tscn<>uid://dx7gjnlc0ld3w::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/IDLE.png<>uid://dao7dih7w7k0m::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/AIR ATTACK.png<>uid://bh4ai8vuoxtbd::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 1.png<>uid://dt6qqbgxf4rha::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALK.png<>uid://cxyymikcayo7o::::res://Scenes/Components/Jump Controlller/JumpController.tscn<>uid://bjtp18nd2ekyc::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 2.png<>uid://bqx2wk53radj2::::res://Scenes/Components/Jump Controlller/WallJumpController.tscn<>uid://c7iss65i7agxw::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 3.png<>uid://dkx05anb7mfv1::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/CLIMBING.png<>uid://bxnryydlludcs::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/DASH.png<>uid://dq77efpysi6uw::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/DEATH.png<>uid://hohp7kgkuljt::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/DEFEND.png<>uid://daxmhmslvj3eb::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/HEALING.png<>uid://c03fldvg8trap::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/HEALING NO EFFECT.png<>uid://cv2l08tk3ohnm::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/HURT.png<>uid://cy702qdtj0nk0::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/JUMP-FALL.png<>uid://6l6bvpp5xubl::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/JUMP.png<>uid://3ixa0qdl3g40::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/RUN.png<>uid://kt1wagm153fq::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/JUMP-START.png<>uid://h4ofemhkupw7::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/JUMP-TRANSITION.png<>uid://jput4eu4golh::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/SPECIAL ATTACK.png<>uid://d0wxirmxo63bs::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/THROW.png<>uid://s75ouo4aj4lj::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL CONTACT.png<>uid://dtuoxvsn1u4sh::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL JUMP.png<>uid://cgyoj8jhqa00u::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL SLIDE.png<>uid://b0out77r7wnmj::::res://Scenes/Components/Character Controlller/character_controller.gd<>uid://nk6ve5x3fdu2::::res://Scenes/Components/Dash Controlller/DashController.tscn
-::res://Scenes/Player/Resources/::1742423138
-PlayerResource.tres::Resource/Character::3943123870675620752::1742423138::0::1::::<><><>0<>0<><>::uid://cl18yiai38nuu::::res://Resources/CharacterResource.gd
+::res://Scenes/::1742491773
+::res://Scenes/Controlller/::1742495708
+::res://Scenes/Controlller/Animation Controlller/::1742491995
+animation_controller.gd::GDScript::6452289503663432674::1742491995::0::1::::AnimationController<>Node<><>0<>0<><>::
+::res://Scenes/Controlller/Audio Controller/::1742498177
+sfx_controller.gd::GDScript::8925380550311017911::1742498177::0::1::::<>Node<><>0<>0<><>::
+::res://Scenes/Controlller/Character Controlller/::1742492031
+character_controller.gd::GDScript::4171293064137260837::1742492031::0::1::::<>Node<><>0<>0<><>::
+::res://Scenes/Controlller/Dash Controlller/::1742429127
+DashController.tscn::PackedScene/PackedScene::935018730802947863::1742424531::0::1::::<><><>0<>0<><>::uid://dssjdm8thkf0d::::res://Scenes/Controlller/Dash Controlller/dash_controller.gd
+dash_controller.gd::GDScript/GDScript::8460372528585349449::1742429127::0::1::::Dash<>Node<><>0<>0<><>::
+::res://Scenes/Controlller/Jump Controlller/::1742492015
+JumpController.tscn::PackedScene/PackedScene::6438208910238312198::1742424531::0::1::::<><><>0<>0<><>::uid://uehjumdv7yf5::::res://Scenes/Controlller/Jump Controlller/jump_controller.gd
+jump_controller.gd::GDScript/GDScript::1412476544041706968::1742426589::0::1::::Jump<>Node<><>0<>0<><>::
+WallJumpController.tscn::PackedScene/PackedScene::3558602089388143593::1742424531::0::1::::<><><>0<>0<><>::uid://68shla4o8ftc::::res://Scenes/Controlller/Jump Controlller/wall_jump_controller.gd
+wall_jump_controller.gd::GDScript::2245084604184598180::1742492015::0::1::::WallJump<>Node<><>0<>0<><>::
+::res://Scenes/Controlller/Movement Controlller/::1742492123
+MovementController.tscn::PackedScene/PackedScene::2819289542898925997::1742424531::0::1::::<><><>0<>0<><>::uid://c8xaxwi3c61yt::::res://Scenes/Controlller/Movement Controlller/movement_controller.gd
+movement_controller.gd::GDScript::7136596138192710595::1742492123::0::1::::Movement<>Node<><>0<>0<><>::
+::res://Scenes/GPU_Fx/::1742491775
+LeavesVFX.tscn::PackedScene::1762336638479562642::1742491684::0::1::::<><><>0<>0<><>::uid://b8ebexr1br2la::::res://Asset/Graphics/Leaves/ELR_FallLeaf.png
+::res://Scenes/Player/::1742498188
+player.gd::GDScript::5335946046359151732::1742496973::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+Player.tscn::PackedScene::5345787862546394856::1742498188::0::1::::<><><>0<>0<><>::uid://cia1itco2cfkm::::res://Scenes/Player/player.gd<>uid://bwgcw6g7rrgr5::::res://Scenes/Player/Resources/PlayerResource.tres<>uid://bgfxj0vcj024p::::res://Scenes/Controlller/Movement Controlller/MovementController.tscn<>uid://dx7gjnlc0ld3w::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/IDLE.png<>uid://dao7dih7w7k0m::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/AIR ATTACK.png<>uid://bh4ai8vuoxtbd::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 1.png<>uid://dt6qqbgxf4rha::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALK.png<>uid://cxyymikcayo7o::::res://Scenes/Controlller/Jump Controlller/JumpController.tscn<>uid://bjtp18nd2ekyc::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 2.png<>uid://bqx2wk53radj2::::res://Scenes/Controlller/Jump Controlller/WallJumpController.tscn<>uid://c7iss65i7agxw::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/ATTACK 3.png<>uid://dkx05anb7mfv1::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/CLIMBING.png<>uid://bxnryydlludcs::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/DASH.png<>uid://dq77efpysi6uw::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/DEATH.png<>uid://hohp7kgkuljt::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/DEFEND.png<>uid://daxmhmslvj3eb::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/HEALING.png<>uid://c03fldvg8trap::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/HEALING NO EFFECT.png<>uid://cv2l08tk3ohnm::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/HURT.png<>uid://cy702qdtj0nk0::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/JUMP-FALL.png<>uid://6l6bvpp5xubl::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/JUMP.png<>uid://3ixa0qdl3g40::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/RUN.png<>uid://kt1wagm153fq::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/JUMP-START.png<>uid://h4ofemhkupw7::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/JUMP-TRANSITION.png<>uid://jput4eu4golh::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/SPECIAL ATTACK.png<>uid://d0wxirmxo63bs::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/THROW.png<>uid://s75ouo4aj4lj::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL CONTACT.png<>uid://dtuoxvsn1u4sh::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL JUMP.png<>uid://cgyoj8jhqa00u::::res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites/WALL SLIDE.png<>uid://b0out77r7wnmj::::res://Scenes/Controlller/Character Controlller/character_controller.gd<>uid://nk6ve5x3fdu2::::res://Scenes/Controlller/Dash Controlller/DashController.tscn<>uid://cx6sja3vci7r7::::res://Scenes/Controlller/Animation Controlller/animation_controller.gd<>uid://bgr8kvi2idf4y::::res://Assets/Audio/SFX/WAV/Footsteps_Grass_01.wav<>uid://b5x1wenxharmr::::res://Assets/Audio/SFX/WAV/Footsteps_Grass_02.wav<>uid://bheh2iqsf1l4v::::res://Assets/Audio/SFX/WAV/Footsteps_Grass_03.wav<>uid://c3ax4f6iwua2i::::res://Assets/Audio/SFX/WAV/Footsteps_Grass_04.wav<>uid://d0fryi8jegknf::::res://Scenes/Controlller/Audio Controller/sfx_controller.gd<>uid://qiwbuh13c1hi::::res://Assets/Audio/SFX/WAV/Footsteps_Dirt_01.wav<>uid://dh85to25sifmj::::res://Assets/Audio/SFX/WAV/Footsteps_Dirt_02.wav<>uid://c8omotxd5se1n::::res://Assets/Audio/SFX/WAV/Footsteps_Dirt_03.wav<>uid://cjpu5j2y6xvfc::::res://Assets/Audio/SFX/WAV/Footsteps_Dirt_04.wav
+::res://Scenes/Player/Resources/::1742491293
+PlayerResource.tres::Resource/Character::3943123870675620752::1742491293::0::1::::<><><>0<>0<><>::uid://cl18yiai38nuu::::res://Resources/CharacterResource.gd
 ::res://Scenes/Player/State/::1742399384
 IDLE.gd::GDScript/GDScript::4126619630937602680::1742269270::0::1::::Idle<>State<><>0<>0<><>::
 idle.tscn::PackedScene/PackedScene::5933022788608334570::1742399384::0::1::::<><><>0<>0<><>::uid://by1727ygujgts::::res://Scenes/Player/State/IDLE.gd

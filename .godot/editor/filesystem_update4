@@ -1,19 +1,11 @@
-res://Autoload/GameInputs.tscn
-res://Scenes/Player/Resources/PlayerResource.tres
-res://Scenes/Components/Movement Component/movement_controller.gd
-res://Autoload/GameInputs.gd
-res://TASKS.md
 res://test.tscn
-res://Scenes/Player/Player.tscn
-res://Scenes/Components/Jump Component/JumpController.tscn
-res://Scenes/Components/Jump Component/WallJumpController.tscn
-res://Scenes/Components/Movement Component/MovementController.tscn
-res://Scenes/Components/Jump Controlller/JumpController.tscn
-res://Scenes/Components/Movement Controlller/MovementController.tscn
-res://Scenes/Components/Jump Controlller/WallJumpController.tscn
+res://Scenes/Player/Resources/PlayerResource.tres
+res://Scenes/Controlller/Animation Controlller/animation_controller.gd
 res://Scenes/Controlller/Character Controlller/character_controller.gd
-res://Scenes/Controlller/Jump Controlller/jump_controller.gd
+res://Scenes/Player/Player.tscn
 res://Scenes/Controlller/Jump Controlller/wall_jump_controller.gd
-res://Scenes/Controlller/Dash Controlller/dash_controller.gd
 res://Scenes/Controlller/Movement Controlller/movement_controller.gd
+res://Scenes/Controlller/Audio Controller/sfx_controller.gd
 res://Scenes/Player/player.gd
+res://Scenes/GPU_Fx/LeavesVFX.tscn
+res://Scenes/GPU_Fx/CaveVFX.tscn

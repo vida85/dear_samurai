@@ -1,4 +1,6 @@
-res://Scenes/Components/Character Controlller
+res://Scenes/Controlller/Audio Controller
+res://Scenes/Controlller/Animation Controlller
+res://Assets/Meshes/Tileset
 res://Autoload
 res://Assets/Meshes/Animations/FULL_Samurai 2D Pixel Art v1.2/Sprites
 res://

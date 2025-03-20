@@ -18,12 +18,13 @@ extends Node
 
 
 # Jump Variables
-@export_category("Advanced Jump Controller")
-@export_group("Jump Controller")
+@export_category("Jump Controllers")
+@export_group("Normal Jump Controller")
 @export var jump_controller: Jump
 
 @export_group("Wall Jump Controller")
 @export var wall_jump_controller: WallJump
+var wall_slide: bool = false
 
 @export_group("Jump Input")
 @export var jump: String = "p1_jump"
@@ -40,14 +41,14 @@ extends Node
 # Dash Variables
 
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	get_movement_variables()
 	apply_jump()
 	handle_wall_jump()
 	set_dash_variables()
 
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	apply_movement()
 	apply_dash()
 
@@ -56,7 +57,7 @@ func _physics_process(delta: float) -> void:
 func apply_movement() -> void:
 	if move_controller.direction:
 		move_controller.flip_sprite(move_controller.direction)
-	if not player.on_wall_slide:
+	if not wall_slide:
 		player.velocity.x = lerp(player.velocity.x, move_controller.direction * move_controller.speed, 0.1)
 	player.move_and_slide()
 
@@ -76,9 +77,11 @@ func apply_jump() -> void:
 
 # Wall Jump ####################
 func handle_wall_jump() -> void:
-	if wall_jump_controller.is_wall_jump_available(player, Input.is_action_just_pressed(jump), move_controller.direction):
-		player.on_wall_slide = true
+	if wall_jump_controller.is_wall_jump_available(player, Input.is_action_just_pressed(jump)):
+		wall_slide = true
 		wall_jump_controller.apply_jump(player, move_controller.direction)
+		await get_tree().create_timer(.25).timeout
+		wall_slide = false
 # Wall Jump ####################
 
 
