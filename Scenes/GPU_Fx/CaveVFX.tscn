@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://cg2pypbdg5d5q"]
+
+[ext_resource type="Texture2D" uid="uid://bjc1ukkt4cryd" path="res://Assets/Meshes/Autumn Forest/Trees/ELR_SpringlLeaf.png" id="1_whao8"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_umj1s"]
+particles_animation = true
+particles_anim_h_frames = 5
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="Gradient" id="Gradient_f713n"]
+offsets = PackedFloat32Array(0, 0.0772532, 0.560086, 1)
+colors = PackedColorArray(1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_duwix"]
+gradient = SubResource("Gradient_f713n")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_j5uka"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(2000, 200, 1)
+spread = 30.0
+initial_velocity_min = 20.0
+initial_velocity_max = 80.0
+angular_velocity_min = -1.60933e-05
+angular_velocity_max = 50.0
+gravity = Vector3(0, 10, 0)
+scale_min = 0.1
+scale_max = 0.7
+color_ramp = SubResource("GradientTexture1D_duwix")
+anim_offset_max = 1.0
+
+[node name="CaveVFX" type="GPUParticles2D"]
+material = SubResource("CanvasItemMaterial_umj1s")
+amount = 300
+texture = ExtResource("1_whao8")
+lifetime = 3.0
+visibility_rect = Rect2(-2500, -200, 4000, 1000)
+process_material = SubResource("ParticleProcessMaterial_j5uka")

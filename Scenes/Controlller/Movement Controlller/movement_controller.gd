@@ -15,8 +15,8 @@ func get_direction(right: float, left: float) -> void:
 	direction = right - left
 
 
-func flip_sprite(direction: float) -> void:
-	sprite.flip_h = false if direction > 0 else true
+func flip_sprite(dir: float) -> void:
+	sprite.flip_h = false if dir > 0 else true
 
 
 func get_speed(run: bool) -> float:
