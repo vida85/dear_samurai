@@ -9,13 +9,13 @@ extends Node
 @export var movement: Movement
 var sprite_position: float
 
+
 func _ready() -> void:
 	sprite_position = movement.animated_sprite.position.x
 	animation_player.play("Idle")
 
 
 func _physics_process(delta: float) -> void:
-	print(get_animation(movement.direction))
 	play_animation(get_animation(movement.direction))
 
 
@@ -26,7 +26,6 @@ func play_animation(animation_name: String) -> void:
 
 func get_animation(direction: float) -> String:
 	if player.velocity.y > 0.0:
-		print("player.is_on_wall() = ", player.is_on_wall())
 		if player.is_on_wall():
 			movement.animated_sprite.position.x = direction * 5
 			return "Wall_Slide"
